@@ -1,0 +1,163 @@
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+#
+# Initial commit
+#
+# Changes to be committed:
+#   (use "git rm --cached <file>..." to unstage)
+#
+#	new file:   .gitattributes
+#	new file:   .gitignore
+	new file:   trunk/server/DataBase_EER_Model.mwb
+	new file:   trunk/server/pom.xml
+	new file:   trunk/server/src/main/java/com/intita/dao/AbsenceDao.java
+	new file:   trunk/server/src/main/java/com/intita/dao/AbsenceDaoImpl.java
+	new file:   trunk/server/src/main/java/com/intita/dao/ClassRoomsDao.java
+	new file:   trunk/server/src/main/java/com/intita/dao/ClassRoomsDaoImpl.java
+	new file:   trunk/server/src/main/java/com/intita/dao/ExamDao.java
+	new file:   trunk/server/src/main/java/com/intita/dao/ExamDaoImpl.java
+	new file:   trunk/server/src/main/java/com/intita/dao/FilesDao.java
+	new file:   trunk/server/src/main/java/com/intita/dao/FilesDaoImpl.java
+	new file:   trunk/server/src/main/java/com/intita/dao/FolderDao.java
+	new file:   trunk/server/src/main/java/com/intita/dao/FolderDaoImpl.java
+	new file:   trunk/server/src/main/java/com/intita/dao/GenericDao.java
+	new file:   trunk/server/src/main/java/com/intita/dao/GenericDaoImpl.java
+	new file:   trunk/server/src/main/java/com/intita/dao/GroupDAO.java
+	new file:   trunk/server/src/main/java/com/intita/dao/GroupDAOImpl.java
+	new file:   trunk/server/src/main/java/com/intita/dao/LessonsDao.java
+	new file:   trunk/server/src/main/java/com/intita/dao/LessonsDaoImpl.java
+	new file:   trunk/server/src/main/java/com/intita/dao/MarkDao.java
+	new file:   trunk/server/src/main/java/com/intita/dao/MarkDaoImpl.java
+	new file:   trunk/server/src/main/java/com/intita/dao/ResiverDAO.java
+	new file:   trunk/server/src/main/java/com/intita/dao/ResiverDaoImpl.java
+	new file:   trunk/server/src/main/java/com/intita/dao/RoleDAO.java
+	new file:   trunk/server/src/main/java/com/intita/dao/RoleDAOImpl.java
+	new file:   trunk/server/src/main/java/com/intita/dao/SubjectDao.java
+	new file:   trunk/server/src/main/java/com/intita/dao/SubjectDaoImpl.java
+	new file:   trunk/server/src/main/java/com/intita/dao/TemporaryLessonsDao.java
+	new file:   trunk/server/src/main/java/com/intita/dao/TemporaryLessonsDaoImpl.java
+	new file:   trunk/server/src/main/java/com/intita/dao/TemporaryTimeDao.java
+	new file:   trunk/server/src/main/java/com/intita/dao/TemporaryTimeDaoImpl.java
+	new file:   trunk/server/src/main/java/com/intita/dao/UserDAO.java
+	new file:   trunk/server/src/main/java/com/intita/dao/UserDAOImpl.java
+	new file:   trunk/server/src/main/java/com/intita/domain/Absence.java
+	new file:   trunk/server/src/main/java/com/intita/domain/Classrooms.java
+	new file:   trunk/server/src/main/java/com/intita/domain/Exam.java
+	new file:   trunk/server/src/main/java/com/intita/domain/ExamConnector.java
+	new file:   trunk/server/src/main/java/com/intita/domain/ExamResive.java
+	new file:   trunk/server/src/main/java/com/intita/domain/File.java
+	new file:   trunk/server/src/main/java/com/intita/domain/Folder.java
+	new file:   trunk/server/src/main/java/com/intita/domain/Group.java
+	new file:   trunk/server/src/main/java/com/intita/domain/LessonCalendar.java
+	new file:   trunk/server/src/main/java/com/intita/domain/Lessons.java
+	new file:   trunk/server/src/main/java/com/intita/domain/Mark.java
+	new file:   trunk/server/src/main/java/com/intita/domain/NewLessons.java
+	new file:   trunk/server/src/main/java/com/intita/domain/Resiver.java
+	new file:   trunk/server/src/main/java/com/intita/domain/Role.java
+	new file:   trunk/server/src/main/java/com/intita/domain/Subject.java
+	new file:   trunk/server/src/main/java/com/intita/domain/TemporaryLessons.java
+	new file:   trunk/server/src/main/java/com/intita/domain/TemporaryTime.java
+	new file:   trunk/server/src/main/java/com/intita/domain/User.java
+	new file:   trunk/server/src/main/java/com/intita/formModels/FileCheckModel.java
+	new file:   trunk/server/src/main/java/com/intita/service/AbsenceService.java
+	new file:   trunk/server/src/main/java/com/intita/service/AbsenceServiceImpl.java
+	new file:   trunk/server/src/main/java/com/intita/service/ExamService.java
+	new file:   trunk/server/src/main/java/com/intita/service/ExamServiceImpl.java
+	new file:   trunk/server/src/main/java/com/intita/service/FilesService.java
+	new file:   trunk/server/src/main/java/com/intita/service/FilesServiceImpl.java
+	new file:   trunk/server/src/main/java/com/intita/service/FoldersService.java
+	new file:   trunk/server/src/main/java/com/intita/service/FoldersServiceImpl.java
+	new file:   trunk/server/src/main/java/com/intita/service/GroupService.java
+	new file:   trunk/server/src/main/java/com/intita/service/GroupServiceImpl.java
+	new file:   trunk/server/src/main/java/com/intita/service/MarkService.java
+	new file:   trunk/server/src/main/java/com/intita/service/MarkServiceImpl.java
+	new file:   trunk/server/src/main/java/com/intita/service/ResiverService.java
+	new file:   trunk/server/src/main/java/com/intita/service/ResiverServiceImpl.java
+	new file:   trunk/server/src/main/java/com/intita/service/RoleService.java
+	new file:   trunk/server/src/main/java/com/intita/service/RoleServiceImpl.java
+	new file:   trunk/server/src/main/java/com/intita/service/ServiceLessons.java
+	new file:   trunk/server/src/main/java/com/intita/service/ServiceLessonsImpl.java
+	new file:   trunk/server/src/main/java/com/intita/service/ServiceNewSchedule.java
+	new file:   trunk/server/src/main/java/com/intita/service/ServiceNewScheduleImpl.java
+	new file:   trunk/server/src/main/java/com/intita/service/ServiceSchedule.java
+	new file:   trunk/server/src/main/java/com/intita/service/ServiceScheduleImpl.java
+	new file:   trunk/server/src/main/java/com/intita/service/SubjectService.java
+	new file:   trunk/server/src/main/java/com/intita/service/SubjectServiceImpl.java
+	new file:   trunk/server/src/main/java/com/intita/service/UserService.java
+	new file:   trunk/server/src/main/java/com/intita/service/UserServiceImpl.java
+	new file:   "trunk/server/src/main/java/com/intita/web/Admin\320\241ontroller.java"
+	new file:   trunk/server/src/main/java/com/intita/web/ExamController.java
+	new file:   trunk/server/src/main/java/com/intita/web/FileManagerController.java
+	new file:   trunk/server/src/main/java/com/intita/web/GroupController.java
+	new file:   trunk/server/src/main/java/com/intita/web/HomeController.java
+	new file:   trunk/server/src/main/java/com/intita/web/LessonController.java
+	new file:   trunk/server/src/main/java/com/intita/web/MarkController.java
+	new file:   trunk/server/src/main/java/com/intita/web/NewScheduleController.java
+	new file:   trunk/server/src/main/java/com/intita/web/ScheduleController.java
+	new file:   trunk/server/src/main/java/com/intita/web/SubjectController.java
+	new file:   trunk/server/src/main/java/com/intita/web/UserController.java
+	new file:   trunk/server/src/main/java/scheduleAlgorithmCPU/HungarianAlgorithm.java
+	new file:   trunk/server/src/main/java/scheduleAlgorithmCPU/HungarianAlgorithmImpl.java
+	new file:   trunk/server/src/main/resources/messages_en.properties
+	new file:   trunk/server/src/main/resources/messages_ru.properties
+	new file:   trunk/server/src/main/webapp/META-INF/context.xml
+	new file:   trunk/server/src/main/webapp/WEB-INF/spring/appServlet/controllers.xml
+	new file:   trunk/server/src/main/webapp/WEB-INF/spring/appServlet/servlet-context.xml
+	new file:   trunk/server/src/main/webapp/WEB-INF/spring/data.xml
+	new file:   trunk/server/src/main/webapp/WEB-INF/spring/root-context.xml
+	new file:   trunk/server/src/main/webapp/WEB-INF/spring/security.xml
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/admin.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/adminbutton.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/adminlist.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/createlesson.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/examMassengPage.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/examShowPage.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/examStudent.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/examTEST.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/examTeach.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/file_manager.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/footer.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/groupadd.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/grouplist.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/header.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/home.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/lessons.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/newclassroom.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/newschedule.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/newsubject.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/newtime.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/resive.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/schedule.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/studentmarks.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/sublist.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/teacherlist.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/teachermarks.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/testFile.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/user.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/useradd.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/userlist.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/userpass.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/views/userupdate.jsp
+	new file:   trunk/server/src/main/webapp/WEB-INF/web.xml
+	new file:   trunk/server/src/main/webapp/error403.jsp
+	new file:   trunk/server/src/main/webapp/resources/css/admin.css
+	new file:   trunk/server/src/main/webapp/resources/css/common.css
+	new file:   trunk/server/src/main/webapp/resources/css/exam.css
+	new file:   trunk/server/src/main/webapp/resources/css/fm.css
+	new file:   trunk/server/src/main/webapp/resources/css/home.css
+	new file:   trunk/server/src/main/webapp/resources/css/lessons.css
+	new file:   trunk/server/src/main/webapp/resources/css/user.css
+	new file:   trunk/server/src/main/webapp/resources/logo.png
+	new file:   trunk/server/src/main/webapp/resources/script/user.js
+	new file:   trunk/server/src/test/java/com/intita/tests/dao/FolderServiceImplTest.java
+	new file:   trunk/server/src/test/java/hungarianAlgorithmTest/TestHungarianAlgorithm.java
+#
+# Changes not staged for commit:
+#   (use "git add <file>..." to update what will be committed)
+#   (use "git checkout -- <file>..." to discard changes in working directory)
+#
+#	modified:   trunk/server/src/main/webapp/WEB-INF/spring/data.xml
+#
+
